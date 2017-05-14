@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="XMPPCLient.jnlp">
+  <information>
+    <title>XMPPCLient</title>
+    <vendor>Алексей</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="XMPPCLient.jar" size="17346" download="eager" />
+    <jar href="lib\jdom-1.1.3-javadoc.jar" size="445334" download="eager" />
+    <jar href="lib\jdom-1.1.3-sources.jar" size="236509" download="eager" />
+    <jar href="lib\jdom-1.1.3.jar" size="151304" download="eager" />
+    <jar href="lib\jdom-2.0.6-contrib.jar" size="167108" download="eager" />
+    <jar href="lib\jdom-2.0.6-javadoc.jar" size="1007377" download="eager" />
+    <jar href="lib\jdom-2.0.6-junit.jar" size="494414" download="eager" />
+    <jar href="lib\jdom-2.0.6-sources.jar" size="860190" download="eager" />
+    <jar href="lib\jdom-2.0.6.jar" size="304924" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="XMPPCLient" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="xmppclient.XMPPClient"  name="XMPPCLient" />
+  <update check="always"/>
+</jnlp>
